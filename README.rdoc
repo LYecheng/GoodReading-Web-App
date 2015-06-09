@@ -13,13 +13,13 @@ Inspired by GoodReads, this app has the basic functionalities of showing the boo
 
 == Features
 
-=== Deployment
+==== Deployment
 To access this app on a public URL, please go to: https://powerful-mesa-4775.herokuapp.com
 
-=== “Forgot Password” functionality
+==== “Forgot Password” functionality
 User may choose to receive a new temporary password via registered email address. 
 
-=== Bootstrap components
+==== Bootstrap components
 A little bit Bootstrap and css styling of the website.
 
 == Best Practices
