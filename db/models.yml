@@ -1,0 +1,24 @@
+User
+    username: string
+    email: string
+    password_digest: string  
+
+Book
+    isbn: string
+    name: string
+    year: integer
+    rating: integer
+    category_id: string
+    image: string
+    author_id: string
+    description: text
+
+Author
+    name: string
+
+Category
+    name: string
+
+Favorite
+    user_id: integer
+    book_id: integer 

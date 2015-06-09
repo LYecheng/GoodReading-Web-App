@@ -1,0 +1,7 @@
+<%= form_tag "/authors/#{@author.id}", :method => 'patch' do %> 
+  <div>
+    <%= label_tag 'Name: ' %>
+    <%= text_field_tag :name, value = @author.name %>
+  </div>
+  <%= submit_tag 'Update' %>
+<% end %>

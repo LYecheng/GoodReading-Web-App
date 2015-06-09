@@ -1,0 +1,71 @@
+<% if @new_book.errors.present? %>
+  <ul>
+    <% @new_book.errors.full_messages.each do |error| %> 
+      <li><%= error %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_tag '/books' do %>
+
+  <p>
+    <%= label_tag 'Name: ' %>
+    <%= text_field_tag :name %>
+  </p>
+
+  <p>
+    <%= label_tag 'ISBN: ' %>
+    <%= text_field_tag :isbn %>
+  </p>
+
+  <p>
+    <%= label_tag 'Year: ' %>
+    <%= text_field_tag :year %>
+  </p>
+
+  <p>
+    <%= label_tag 'Rating: ' %>
+    <select name='rating'>
+      <option>5</option>
+      <option>4</option>
+      <option>3</option>
+      <option>2</option>
+      <option>1</option>
+    </select>
+  </p>
+
+  <p>
+    <%= label_tag 'category_id' %>
+    <select name='category_id'>
+      <% @category.each do |category| %>
+        <option value="<%= category.id %>">
+          <%= category.name %>
+        </option>
+      <% end %>
+    </select>
+  </p>
+
+  <p>
+    <%= label_tag 'author_id' %>
+    <select name='author_id' >
+      <% @authors.each do |author| %>
+        <option value="<%= author.id %>">
+          <%= author.name %>
+        </option>
+      <% end %>
+    </select>
+  </p>
+
+  <p>
+    <%= label_tag 'Image: ' %>
+    <%= text_field_tag :image %>
+  </p>
+
+  <p>
+    <%= label_tag 'Description: ' %>
+    <%= text_area_tag :description %>
+  </p>
+
+  <%= submit_tag 'Update' %>
+
+<% end %>

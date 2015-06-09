@@ -1,0 +1,7 @@
+<%= form_for @author do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name, placeholder: 'Example: William Shakespeare', size: 80 %>
+  </div>
+  <%= form.submit %>
+<% end %>

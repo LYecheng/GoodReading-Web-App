@@ -1,0 +1,16 @@
+<p><%= link_to 'Add A New Author', '/authors/new' %></p>
+
+<%= paginate @authors  %>
+
+<table class='table table-striped'>
+  <tr>
+    <th>Name</th>
+    <th>Edit</th>
+  </tr>
+  <% @authors.each do |author| %>
+    <tr>
+      <td><%= link_to author.name, author_url(author.id) %></td>
+      <td><%= link_to 'Edit', "/authors/#{author.id}/edit" %></td>
+    </tr>
+  <% end %>
+</table> 

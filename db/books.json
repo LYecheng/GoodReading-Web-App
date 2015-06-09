@@ -1,0 +1,180 @@
+
+// Book
+//     isbn: string
+//     name: string
+//     year: integer
+//     rating: integer
+//     category_id: string
+//     image: string
+//     author_id: string
+//     description: text
+[
+    { 
+        "isbn": "9780023607707",
+        "name": "Plato",
+        "year": "1949",
+        "rating": "3",
+        "image": "http://bks6.books.google.com/books/content?id=JU8QSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "This book is Spiral Bound."
+    }, 
+    {
+        "isbn": "9780312330538",
+        "name": "Shantaram",
+        "year": "2005",
+        "rating": "5",
+        "image": "http://bks0.books.google.com/books/content?id=VdMFmq92Fa8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "Having escaped an Australian maximum security prison, a disillusioned man loses himself in the slums of Bombay, where he works for a drug mafia kingpin, smuggles arms for a crime lord, forges bonds with fellow exiles, and finds love with an elusive woman. A first novel. Reprint."
+    },
+    {
+        "isbn": "9783527406012",
+        "name": "Introduction to Elementary Particles",
+        "year": "2008",
+        "rating": "4",
+        "image": "In the second, revised edition of a well-established textbook, the author strikes a balance between quantitative rigor and intuitive understanding, using a lively, informal style.The book contains a number of worked examples and many end-of-chapter problems.A complete solution manual is available for instructors.",
+        "description": "http://bks0.books.google.com/books/content?id=w9Dz56myXm8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "isbn": "9780451526939",
+        "name": "King Lear",
+        "year": "1998",
+        "rating": "4",
+        "image": "http://bks8.books.google.com/books/content?id=ZharG7Q6qSwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "[Lear] is the most awesome of all the poet's originals. No one else in Shakespeare is so legitimate a representation of supreme authority."
+    }, 
+    {
+        "isbn": "9780895772770",
+        "name": "The adventures of Sherlock Holmes",
+        "year": "1987",
+        "rating": "5",
+        "image": "http://bks4.books.google.com/books/content?id=ZrIsToQbQIoC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "For generations, readers have enjoyed classic literature. They have delighted in the romance of Jane Austen, thrilled at the adventures of Jules Verne, and pondered the lessons of Aesop. Introduce young readers to these familiar volumes with Great Illustrated Classics. In this series, literary masterworks have been adapted for young scholars. Large, easy-to-read type and charming pen-and-ink drawings enhance the text. Students are sure to enjoy becoming acquainted with traditional literature through these well-loved classics."
+    },
+    {
+        "isbn": "9780060666842",
+        "name": "Standing Again at Sinai",
+        "year": "1991",
+        "rating": "4",
+        "image": "http://bks2.books.google.com/books/content?id=mJX78S4ejiAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "A feminist critique of Judaism as a patriarchal tradition and an exploration of the increasing involvement of women in naming and shaping Jewish tradition."
+    }, 
+    {
+        "isbn": "9780060726041",
+        "name": "Out of Bounds",
+        "year": "2009",
+        "rating": "3",
+        "image": "http://bks9.books.google.com/books/content?id=Mgfh0N2zegUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "Inside the NBA's Culture of Rape, Violence, and Crime is a searing indictment of professional basketball players who live in a world where criminal laws and social norms don't exist, a world where they are given license to act above the law. On the court, they dazzle us with their spectacular physical feats. They generate millions of dollars of revenue for the NBA and their teams. They inspire adulation. But underneath all the glitz, the money, and alley-oops is a seamy underbelly, a rash of lawlessness that is gripping the NBA. Based on a first-of-its-kind investigation into the criminal histories of 177 NBA players from the 2001–2002 season, Out of Bounds shows that an alarming four out of every ten NBA players have a police record involving a serious crime. They are All-Stars and they are journeymen, involved in crimes ranging from armed robbery to domestic violence to gun possession to rape. Out of Bounds takes a hard look at shocking cases, with graphic accounts of physical and sexual violence and other outrageous conduct by players. In all, more than 250 people are named, including many prominent NBA players. It exposes the environment and culture that encourages such criminal behavior. It also explains the unique challenges these cases pose for law-enforcement agencies and prosecutors. And Out of Bounds takes readers inside the hidden yet critically vital role that lawyers, agents, and fame play in insulating criminally accused players from accountability. Author Jeff Benedict, an expert on athletes and crime, draws his conclusions from exhaustive research. In addition to his criminal-background checks, the author retrieved documents from law-enforcement agencies, courts, and private attorneys. He conducted more than 400 interviews with police officers, prosecutors, defense lawyers, players, agents, victims, witnesses, and coaches. What emerges is a disturbing and appalling picture of men who live above the law. A seminal and important work, Out of Bounds will forever change how we look at the NBA and its stars' lives of excess and privilege."
+    }, 
+    {
+        "isbn": "9780060786847",
+        "name": "HarperCollins Study Bible",
+        "year": "2006",
+        "rating": "3",
+        "image": "http://bks0.books.google.com/books/content?id=oSTo6JzenX0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "The landmark general reference Bible that offers the full text of the New Revised Standard Version. Completely revised and updated, this new edition includes revised introductions and notes, and new diagrams, charts and maps––25% revised or new material. More Praise for the HarperCollins Study Bible: •\"I ... can speak with unbounded praise for this work. The auspices are impeccable, the sponsorship is by one of the most prestigious and effective publishing firms in the field of religious publishing, and the scholarship under the aegis of the Society of Biblical Literature, which is the only game in town, the NBA of Bible study in this country (and abroad).\"–David Noel Freedman, Endowed Chair in Hebrew Biblical Studies, University of California, San Diego; Editor–in–Chief, Anchor Bible Project •\"The HarperCollins Study Bible engages some of the best of biblical scholarship for removing unnecessary obstacles in reading the Scriptures. I welcome its publication and recommend it highly.\"–Elisabeth Schüssler Fiorenza, The Krister Stendahl Professor Scripture and Interpretation, Harvard University •\"The HarperCollins Study Bible is the most authoritative ecumenical Bible available, the work of scholars who are at the cutting edge of their subjects. I recommend it highly.\"–John J. Collins, The University of Chicago •\"This is the Bible I have been looking for to use in undergraduate courses. The text itself is clear and readable. The introductions are sound and precise. The footnotes are balanced, accurate and hit a good balance between the dangers of being too terse and too extended.\"–Harvey Cox, The Victor S. Thomas Professor of Divinity, the Divinity School, Harvard University •\"An invaluable resource for teachers and students, and indeef for every thoughtful reader of the Bible.\"–Richard P. McBrien, Crowley–O'Brien–Walter Professor of Theology, University of Notre Dame •\"I am extremely glad for the HarperCollins Study Bible....Every effort has been made to make these study notes understandable and accessible to ordinary readers. They can be trusted to provide reliable information without trying to control what should be believed.\"–Richard Foster, author of Celebration of Discipline"
+    }, 
+    {
+        "isbn": "9780060842499",
+        "name": "The HarperCollins Visual Guide to the New Testament",
+        "year": "2007",
+        "rating": "2",
+        "image": "http://bks9.books.google.com/books/content?id=FC6t6T7XKigC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "This one-of-a-kind presentation of the New Testament world and its archaeological treasures provides a new, more complete understanding of the world in which Christianity was born. Through lavish photographs, architectural plans, extensive maps, and detailed charts, you can explore the landscape of Nazareth where Jesus grew up; sit at the shores of Galilee where he preached; and enter the streets and temple of Jerusalem where his ministry was fulfilled. An experienced archaeologist and biblical expert will guide you throughout your journey around Israel and beyond—on the Mediterranean voyages of Paul to the homes and synagogues of the Roman Empire, where he planted the seeds of Christianity. Visit Emperor Nero's \"Golden House,\" witness the desperation of the Jewish revolutionaries at Masada, and explore the magnificent basilicas of Constantine the Great. The HarperCollins Visual Guide to the New Testament features: Rich descriptions of the worlds of Jesus, Paul, and the first Christians Full-color photographs of excavations, artifacts, coins, and pottery from New Testament sites Extensive maps Architectural floor plans of temples, palaces, and synagogues Commentary on how archaeology relates to the Bible Examination of modern excavation techniques and methods A beginners' guide to understanding pottery, coins, temples, and inscriptions"
+    }, 
+    {
+        "isbn": "9780671669263",
+        "name": "Shakespeare's Sonnets and Poems",
+        "year": "1988",
+        "rating": "5",
+        "image": "http://bks6.books.google.com/books/content?id=omeVokV39GkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "description": "The bard's sonnets read by a leading actor of stage and screen Simon Callow. Savor the most celebrated love poems in the English language. Written almost 400 years ago, the sonnets of William Shakespeare are passionate and exalted, rich in imagery and alliteration, and full of mystery and intrigue. This selection presents all 154 sonnets composed from 1593-1601. In words and rhyme, he reveals his infatuation with the \"Dark Lady,\" his relationship with a rival poet, and his private thoughts on love, death, beauty, and truth: timeless themes that span the centuries to touch our hearts today."
+    }, 
+    {
+        "isbn": "9780060964313",
+        "name": "A Short History of Reconstruction",
+        "year": "1990",
+        "rating": "3",
+        "image": "http://bks2.books.google.com/books/content?id=bCHilAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "An abridged version of Reconstruction: America's Unfinished Revolution, the definitive study of the aftermath of the Civil War, winner of the Bancroft Prize, Avery O. Craven Prize, Los Angeles Times Book Award, Francis Parkman Prize, and Lionel Trilling Prize."
+    }, 
+    {
+        "isbn": "9780062065254",
+        "name": "The Round House",
+        "year": "2013",
+        "rating": "3",
+        "image": "http://bks7.books.google.com/books/content?id=9ahUNAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "Washington Post Best Book of the Year New York Times Notable Book One Sunday in the spring of 1988, a woman living on a reservation in North Dakota is attacked. The details of the crime are slow to surface because Geraldine Coutts is traumatized and reluctant to relive or reveal what happened, either to the police or to her husband, Bazil, and thirteen-year-old son, Joe. In one day, Joe's life is irrevocably transformed. He tries to heal his mother, but she will not leave her bed and slips into an abyss of solitude. Increasingly alone, Joe finds himself thrust prematurely into an adult world for which he is ill prepared. While his father, a tribal judge, endeavors to wrest justice from a situation that defies his efforts, Joe becomes frustrated with the official investigation and sets out with his trusted friends, Cappy, Zack, and Angus, to get some answers of his own. Their quest takes them first to the Round House, a sacred space and place of worship for the Ojibwe. And this is only the beginning."
+    },
+    {
+        "isbn": "9780073511375",
+        "name": "Advanced Macroeconomics",
+        "year": "2011",
+        "rating": "4",
+        "image": "http://bks7.books.google.com/books/content?id=xTovPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "David Romer's Advanced Macroeconomics, 4e, continues its tradition as the standard text and the starting point for graduate macroeconomic courses and helps lay the groundwork for students to begin doing research in macroeconomics and monetary economics. Formal models are used to present and analyse key ideas and issues. The theoretical analysis is supplemented by examples of relevant empirical work, illustrating the ways that theories can be applied and tested. This well-respected and well-known text is unique in the marketplace."
+    },
+    {
+        "isbn": "9780073523408",
+        "name": "Algorithms",
+        "year": "2006",
+        "rating": "5",
+        "image": "http://bks0.books.google.com/books/content?id=3sCxQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "This text, extensively class-tested over a decade at UC Berkeley and UC San Diego, explains the fundamentals of algorithms in a story line that makes the material enjoyable and easy to digest. Emphasis is placed on understanding the crisp mathematical idea behind each algorithm, in a manner that is intuitive and rigorous without being unduly formal. Features include: The use of boxes to strengthen the narrative: pieces that provide historical context, descriptions of how the algorithms are used in practice, and excursions for the mathematically sophisticated. Carefully chosen advanced topics that can be skipped in a standard one-semester course, but can be covered in an advanced algorithms course or in a more leisurely two-semester sequence. An accessible treatment of linear programming introduces students to one of the greatest achievements in algorithms. An optional chapter on the quantum algorithm for factoring provides a unique peephole into this exciting topic. In addition to the text, DasGupta also offers a Solutions Manual, which is available on the Online Learning Center. \"Algorithms is an outstanding undergraduate text, equally informed by the historical roots and contemporary applications of its subject. Like a captivating novel, it is a joy to read.\" Tim Roughgarden Stanford University"
+    },
+    {
+        "isbn": "9780075535775",
+        "name": "The Prince and The Discourses",
+        "year": "1950",
+        "rating": "2",
+        "image": "http://bks0.books.google.com/books/content?id=ur0LAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "The career and thought of the sixteenth-century political philosopher are traced in an introductory essay to his most famous works。"
+    },
+    {
+        "isbn": "9780078021831",
+        "name": "Macroeconomics",
+        "year": "2013",
+        "rating": "4",
+        "image": "http://bks1.books.google.com/books/content?id=3-6mNAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "Dornbusch, Fischer, and Startz has been a long-standing, leading intermediate macroeconomic theory text since its introduction in 1978. This revision retains most of the text's traditional features, including a middle-of-the-road approach and very current research, while updating and simplifying the exposition. A balanced approach explains both the potential and limitations of economic policy. Macroeconomics employs a model-based approach to macroeconomic analysis and demonstrates how various models are connected with the goal of giving students the capacity to analyze current economic issues in the context of an economic frame of reference. The only pre-requisite continues to be principles of economics."
+    },
+    {
+        "isbn": "9780743273565",
+        "name": "The Great Gatsby",
+        "year": "2004",
+        "rating": "5",
+        "image": "http://bks5.books.google.com/books/content?id=l_gLnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "A young man newly rich tries to recapture the past and win back his former love, despite the fact that she has married."
+    },
+    {
+        "isbn": "9780141036144",
+        "name": "Nineteen Eighty-four",
+        "year": "2008",
+        "rating": "5",
+        "image": "http://bks7.books.google.com/books/content?id=OkhxPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "'It was a bright cold day in April, and the clocks were striking thirteen.' Winston Smith works for the Ministry of Truth in London, chief city of Airstrip One. Big Brother stares out from every poster, the Thought Police uncover every act of betrayal. When Winston finds love with Julia, he discovers that life does not have to be dull and deadening, and awakens to new possibilities. Despite the police helicopters that hover and circle overhead, Winston and Julia begin to question the Party; they are drawn towards conspiracy. Yet Big Brother will not tolerate dissent - even in the mind. For those with original thoughts they invented Room 101... Nineteen Eight-Four is George Orwell's terrifying vision of a totalitarian future in which everything and everyone is slave to a tyrannical regime. 'More relevant to today than almost any other book that you can think of.' - Jo Brand 'Right up there among my favourite books. . . I read it again and again.' - Margaret Atwood"
+    },
+    {
+        "isbn": "9780606171342",
+        "name": "I, Robot",
+        "year": "1991",
+        "rating": "4",
+        "image": "http://bks6.books.google.com/books/content?id=ph9JPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "The development of robot technology to a state of perfection by future civilizations is explored in nine science fiction stories."
+    },
+    {
+        "isbn": "9780028646824",
+        "name": "Computer Music",
+        "year": "1997",
+        "rating": "3",
+        "image": "http://bks0.books.google.com/books/content?id=eY_BQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "This text reflects the current state of computer technology and music composition. The authors offer clear, practical overviews of program languages, real-time synthesizers, digital filtering, artificial intelligence, and much more."
+    },
+    {
+        "isbn": "9780078034770",
+        "name": "Corporate Finance",
+        "year": "2012",
+        "rating": "5",
+        "image": "http://bks6.books.google.com/books/content?id=b0AsMAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "description": "Corporate Finance, by Ross, Westerfield, and Jaffe emphasizes the modern fundamentals of the theory of finance, while providing contemporary examples to make the theory come to life. The authors aim to present corporate finance as the working of a small number of integrated and powerful intuitions, rather than a collection of unrelated topics. They develop the central concepts of modern finance: arbitrage, net present value, efficient markets, agency theory, options, and the trade-off between risk and return, and use them to explain corporate finance with a balance of theory and application. The Tenth Edition includes many exciting new research findings as well as an enhanced Connect Finance, now with even more student learning resources. Connect is the only integrated learning system that empowers students by continuously adapting to deliver precisely what they need, when they need it, and how they need it, so that your class time is more engaging and effective."
+    }
+]

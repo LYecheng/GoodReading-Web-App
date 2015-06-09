@@ -1,0 +1,26 @@
+<% if @user.errors.any? %>
+ <ul>
+  <% @user.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+ </ul>
+<% end %>
+
+<%= form_tag "/users/change_password/#{@user.id}", :method => 'patch' do %>
+  
+  <p>
+    <%= label_tag :old_password %>
+    <%= password_field_tag :old_password %>
+  </p>
+  <p>
+    <%= label_tag :new_password %>
+    <%= password_field_tag :new_password %>
+  </p>
+  <p>
+    <%= label_tag :confirm_password %>
+    <%= password_field_tag :confirm_password %>
+  </p>
+
+  <%= submit_tag 'Update' %>
+
+<% end %> 

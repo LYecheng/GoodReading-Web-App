@@ -1,0 +1,23 @@
+[
+    {"isbn": "9780023607707", "category": "Philosophy"},
+    {"isbn": "9780028646824", "category": "Education"},
+    {"isbn": "9783527406012", "category": "Science"},
+    {"isbn": "9780451526939", "category": "Fiction"},
+    {"isbn": "9780062065254", "category": "Fiction"},
+    {"isbn": "9780312330538", "category": "Fiction"},
+    {"isbn": "9780895772770", "category": "Fiction"},
+    {"isbn": "9780671669263", "category": "Fiction"},
+    {"isbn": "9780743273565", "category": "Fiction"},
+    {"isbn": "9780060666842", "category": "Religion"},
+    {"isbn": "9780060842499", "category": "Religion"},
+    {"isbn": "9780060786847", "category": "Bibles"},
+    {"isbn": "9780060726041", "category": "Sports & Recreation"},
+    {"isbn": "9780060964313", "category": "History"},
+    {"isbn": "9780073523408", "category": "Computers"},
+    {"isbn": "9780075535775", "category": "Political science"},
+    {"isbn": "9780073511375", "category": "Business & Economics"},
+    {"isbn": "9780078021831", "category": "Business & Economics"},
+    {"isbn": "9780078034770", "category": "Business & Economics"},
+    {"isbn": "9780141036144", "category": "Dystopias"},
+    {"isbn": "9780606171342", "category": "Science Fiction"}
+]

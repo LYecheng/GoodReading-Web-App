@@ -1,0 +1,42 @@
+<style>
+  .books{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h6{
+    color: grey;
+    font-size: 20px;
+  }
+</style>
+
+ 
+<h2><%= @user.username %>'s Homepage</h2>
+
+<h4><%= link_to 'Change Password', "/users/change_password/#{@user.id}" %></h4> 
+
+<p>
+  <h3>Name: <%= @user.username %></h3>
+</p>
+
+<p>
+  <h3>Email Address: <%= @user.email %></h3>
+</p>
+
+<p>
+  <h3>Password: [Hidden]</h3>
+</p>
+
+<p>
+  <h3>Favorite Books: </h3>
+  <% if @user.books.present? %>
+    <% @user.books.each do |book| %>
+      <li class="books">
+      <%= book.name %>
+      <h5><%= link_to 'Remove from Favorite', "/favorites/#{book.id}/delete" %></h5>
+      </li>
+    <% end %>
+  <% else %>
+    <h6>  No favorite book. Please go to <%= link_to 'Books', '/books' %> to add some:) </h6>
+  <% end %>
+</p>

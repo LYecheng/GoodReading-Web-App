@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoodReading</title>
+  <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+  <div class='container' >
+    <h1><%= link_to 'GoodReading', root_url %>
+      <small><%= link_to 'Books', '/books' %></small>
+      <small><%= link_to 'Authors', '/authors' %></small>
+
+      <div class='pull-right' >
+        <% if session['user_id'].present? %>
+          <small>Welcome, <%= User.find_by(id: session['user_id']).username %></small>
+          <small><%= link_to 'Home', user_path(User.find_by(id: session['user_id'])) %></small>
+          <small><%= link_to 'Sign Out', logout_url %></small> 
+        <% else %>
+          <small><%= link_to 'Sign Up', signup_url %></small>
+          <small><%= link_to 'Sign In', login_url %></small>
+        <% end %>
+      </div>
+    </h1>
+
+    <% if notice.present? %>
+      <div class='alert alert-info'>
+        <%= notice %>  
+      </div>
+    <% end %>
+
+    <%= yield %>
+  </div>
+</body>

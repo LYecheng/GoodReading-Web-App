@@ -1,0 +1,21 @@
+<h2><%= @book.name %></h2>
+
+<p>
+  <span class='rating'>Rating: <%= @book.rating %></span>
+  ISBN: <%= @book.isbn %>
+</p>
+
+<p><%= link_to 'Edit', "/books/#{@book.id}/edit" %></p>
+
+<% if Favorite.find_by(book_id: @book.id).present? %>
+  <p><%= link_to 'Remove from Favorites', "/favorites/#{@book.id}/delete" %></p>
+<% else %>
+  <p><%= link_to 'Add to favorite', "/favorites/#{@book.id}/add " %></p>
+<% end %>
+
+<div>
+    <%= image_tag @book.image %>
+    <h4>Published: <%= @book.year %></h4>
+    <h4>Written by: <%= Author.find_by(id: @book.author_id).name %></h4>
+    <p><%= @book.description %></p>
+</div>

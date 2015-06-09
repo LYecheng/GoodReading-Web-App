@@ -1,0 +1,31 @@
+h1 {
+  border-bottom: solid 3px gray;
+  margin-bottom: 24px;
+}
+
+input[type=submit] { margin-top: 24px; margin-bottom: 24px; }
+h1 small a { font-size: 16px;}
+h2 {
+  color: white;
+  background: #555;
+  padding: 6px;
+  text-align: center;
+}
+.rating {
+  color: gray;
+  border: solid 1px gray;
+  padding: 4px;
+}
+img {
+  float: left;
+  margin-right: 40px;
+  box-shadow: 8px 8px 4px gray;
+  width: "400px";
+}
+p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.error {
+  color: red;
+}

@@ -1,0 +1,14 @@
+<style>
+	h5{
+		color: green;
+		font-size: 20px;
+	}
+</style>
+
+<h2>Author details: </h2>
+<h4>Name: <%= @author.name %></h4>
+<h4>Book(s):</h4>
+<% @author.books.each do |book| %>
+	<li><h5><%= book.name %></h5></li>
+<% end %>
+<p><%= link_to 'Edit', "/authors/#{@author.id}/edit" %></p>
