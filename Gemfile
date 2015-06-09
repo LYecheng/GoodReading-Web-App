@@ -8,6 +8,7 @@ group :development do
   gem 'sqlite3'
 end
 
+# reference: https://devcenter.heroku.com/articles/getting-started-with-rails4
 group :production do
   gem 'pg'
   gem 'rails_12factor'
