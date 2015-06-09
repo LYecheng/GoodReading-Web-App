@@ -1,28 +1,45 @@
-== README
+= Web Development Final Project {<img src="http://static1.squarespace.com/static/541430e1e4b0e4b35f8f87b3/t/5435360de4b01cad832ab0f0/1412773389898/goodreads-logo+copy.png"/>}[https://powerful-mesa-4775.herokuapp.com] 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== How To Run
+Run the following commands on terminal
+<tt>bundle install</tt>
+<tt>rake db:migrate</tt>
+<tt>rake db:seed</tt>
+<tt>rails server</tt>
 
-Things you may want to cover:
+== Overview
 
-* Ruby version
+Inspired by GoodReads, this app has the basic functionalities of showing the book & author information. After registration, users are allowed to manipulate the database resources (books and authors). Users are also allowed to add book(s) as Favorites. 
 
-* System dependencies
+== Features
 
-* Configuration
+=== Deployment
+To access this app on a public URL, please go to: https://powerful-mesa-4775.herokuapp.com
 
-* Database creation
+=== “Forgot Password” functionality
+User may choose to receive a new temporary password via registered email address. 
 
-* Database initialization
+=== Bootstrap components
+A little bit Bootstrap and css styling of the website.
 
-* How to run the test suite
+== Best Practices
 
-* Services (job queues, cache servers, search engines, etc.)
+* Database query limits implemented
+* SQL injection attach protection implemented when searching for a book
+* Secure passwords with encryption
+* Pagination
+* Proper authorization
 
-* Deployment instructions
+== Domain Modeling
 
-* ...
+* Many-to-many model association: Users and Books through Favorites
+* Proper association and validation.
+* Proper seeds file.
+
+== Controllers and Views
+
+* Books as complete, RESTful database-backed resource
+* Common site navigation throughout
+* Secure password-based signup/sign-in/sign out functionality
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
