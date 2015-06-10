@@ -25,35 +25,17 @@
 
   <p>
     <%= label_tag 'Rating: ' %>
-    <select name='rating'>
-      <option>5</option>
-      <option>4</option>
-      <option>3</option>
-      <option>2</option>
-      <option>1</option>
-    </select>
+    <%= select_tag 'rating', options_for_select([1, 2, 3, 4, 5]) %>
   </p>
 
   <p>
     <%= label_tag 'category_id' %>
-    <select name='category_id'>
-      <% @category.each do |category| %>
-        <option value="<%= category.id %>">
-          <%= category.name %>
-        </option>
-      <% end %>
-    </select>
+    <%= select_tag 'category_id', options_from_collection_for_select(@category, "id", "name") %> 
   </p>
 
   <p>
     <%= label_tag 'author_id' %>
-    <select name='author_id' >
-      <% @authors.each do |author| %>
-        <option value="<%= author.id %>">
-          <%= author.name %>
-        </option>
-      <% end %>
-    </select>
+    <%= select_tag 'author_id', options_from_collection_for_select(@authors, "id", "name") %> 
   </p>
 
   <p>
@@ -63,7 +45,7 @@
 
   <p>
     <%= label_tag 'Description: ' %>
-    <%= text_area_tag :description %>
+    <%= text_area_tag :description, "", rows: 5, cols: 70 %>
   </p>
 
   <%= submit_tag 'Update' %>

@@ -10,7 +10,7 @@
 
   <p>
     <%= label_tag 'Name: ' %>
-    <%= text_field_tag :name, value = @book.name %>
+    <%= text_field_tag :name, value = @book.name, size: 50 %>
   </p>
 
   <p>
@@ -20,40 +20,22 @@
 
   <p>
     <%= label_tag 'Year: ' %>
-    <%= text_field_tag :year, value = @book.year %>
+    <%= text_field_tag :year, value = @book.year, size: 4 %>
   </p>
 
   <p>
     <%= label_tag 'Rating: ' %>
-    <select name='rating' value="<%= @book.rating %>">
-      <option>5</option>
-      <option>4</option>
-      <option>3</option>
-      <option>2</option>
-      <option>1</option>
-    </select>
+    <%= select_tag 'rating', options_for_select([1, 2, 3, 4, 5], @book.rating) %>
   </p>
 
   <p>
     <%= label_tag 'category_id' %>
-    <select name='category_id', value=<% @category_id %> >
-      <% @category.each do |category| %>
-        <option value="<%= category.id %>">
-          <%= category.name %>
-        </option>
-      <% end %>
-    </select>
+   <%= select_tag 'category_id', options_from_collection_for_select(@category, "id", "name", @category_id) %>
   </p>
 
   <p>
     <%= label_tag 'author_id' %>
-    <select name='author_id', value="<%= @author_id %>">
-      <% @authors.each do |author| %>
-        <option value="<%= author.id %>">
-          <%= author.name %>
-        </option>
-      <% end %>
-    </select>
+    <%= select_tag 'author_id', options_from_collection_for_select(@authors, "id", "name", @author_id) %>
   </p>
 
   <p>
@@ -63,7 +45,7 @@
 
   <p>
     <%= label_tag 'Description: ' %>
-    <%= text_area_tag :description, value = @book.description %>
+    <%= text_area_tag :description, value = @book.description, rows: 5, cols: 70 %>
   </p>
 
   <%= submit_tag 'Update' %>
