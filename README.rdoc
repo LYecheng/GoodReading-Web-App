@@ -24,11 +24,12 @@ A little bit Bootstrap and css styling of the website.
 
 == Best Practices
 
-* Database query limits implemented
-* SQL injection attach protection implemented when searching for a book
+* Proper use of Ruby ActionView Helper, esp. the exploration of using <tt>select_tag</tt>.
+* Database query limits imposed to make the App scalable.
+* SQL injection attach protection implemented when searching for a book.
 * Secure passwords with encryption
-* Pagination
-* Proper authorization
+* Pagination using gem
+* Proper authorization to protect user privacy
 
 == Domain Modeling
 
