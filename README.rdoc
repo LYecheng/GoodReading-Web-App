@@ -1,4 +1,4 @@
-= Web Development Final Project {<img src="http://static1.squarespace.com/static/541430e1e4b0e4b35f8f87b3/t/5435360de4b01cad832ab0f0/1412773389898/goodreads-logo+copy.png"/>}[https://powerful-mesa-4775.herokuapp.com] 
+= Web Development Final Project {<img src="http://static1.squarespace.com/static/541430e1e4b0e4b35f8f87b3/t/5435360de4b01cad832ab0f0/1412773389898/goodreads-logo+copy.png"/>}[https://stark-scrubland-6885.herokuapp.com] 
 
 == How To Run
 Run the following commands in terminal
@@ -14,7 +14,7 @@ Inspired by GoodReads, this app performs the basic functionalities of showing th
 == Features
 
 ==== Deployment
-To access this app on a public URL, please go to: https://powerful-mesa-4775.herokuapp.com
+To access this app on a public URL, please go to: https://stark-scrubland-6885.herokuapp.com
 
 ==== “Forgot Password” functionality
 User may choose to receive a new temporary password via registered email address. 
