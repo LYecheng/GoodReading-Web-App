@@ -32,7 +32,7 @@
   <% if @user.books.present? %>
     <% @user.books.each do |book| %>
       <li class="books">
-      <%= book.name %>
+      <%= link_to book.name, "/books/#{book.id}" %>
       <h5><%= link_to 'Remove from Favorite', "/favorites/#{book.id}/delete" %></h5>
       </li>
     <% end %>

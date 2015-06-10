@@ -5,13 +5,14 @@
   ISBN: <%= @book.isbn %>
 </p>
 
-<p><%= link_to 'Edit', "/books/#{@book.id}/edit" %></p>
-
-<% if Favorite.find_by(book_id: @book.id).present? %>
-  <p><%= link_to 'Remove from Favorites', "/favorites/#{@book.id}/delete" %></p>
-<% else %>
-  <p><%= link_to 'Add to favorite', "/favorites/#{@book.id}/add " %></p>
-<% end %>
+<div>
+  <p><%= link_to 'Edit', "/books/#{@book.id}/edit" %></p>
+  <% if Favorite.find_by(book_id: @book.id).present? %>
+    <p><%= link_to 'Remove from Favorites', "/favorites/#{@book.id}/delete" %></p>
+  <% else %>
+    <p><%= link_to 'Add to favorite', "/favorites/#{@book.id}/add " %></p>
+  <% end %>
+</div>
 
 <div>
     <%= image_tag @book.image %>
@@ -20,3 +21,5 @@
     <h4>Category: <%= Category.find_by(id: @book.category_id).name %></h4>
     <p><%= @book.description %></p>
 </div>
+
+
